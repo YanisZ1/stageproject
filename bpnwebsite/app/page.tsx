@@ -15,6 +15,9 @@ const HomePage = () => {
         <Link href="/Inscription">
           <button>Inscription</button>
         </Link>
+        <Link href="/Page admin">
+          <button>Page Admin</button>
+        </Link>
       </nav>
 
       <div className="hero">
