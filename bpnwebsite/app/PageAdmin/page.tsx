@@ -20,9 +20,11 @@ return (
         <div className="bg-white p-4 rounded shadow">
           <h2 className="text-lg font-bold mb-4">Gestion des utilisateurs</h2>
           <p>Vous pouvez gérer les utilisateurs de votre site ici.</p>
-          <button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">
-            Aller à la gestion des utilisateurs
-          </button>
+          <div className="mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">
+            <Link href="/GestionUSer">
+              <button>Aller à la gestion des utilisateurs</button>
+            </Link>
+          </div>
         </div>
         <div className="bg-white p-4 rounded shadow">
           <h2 className="text-lg font-bold mb-4">Statistiques</h2>
