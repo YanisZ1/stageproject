@@ -15,7 +15,7 @@ const HomePage = () => {
         <Link href="/Inscription">
           <button>Inscription</button>
         </Link>
-        <Link href="/Page admin">
+        <Link href="/PageAdmin">
           <button>Page Admin</button>
         </Link>
       </nav>

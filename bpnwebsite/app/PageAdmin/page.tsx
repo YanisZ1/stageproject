@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const AdminPage = () => {
@@ -10,9 +11,11 @@ return (
         <div className="bg-white p-4 rounded shadow">
           <h2 className="text-lg font-bold mb-4">Gestion des produits</h2>
           <p>Vous pouvez gérer les produits de votre site ici.</p>
-          <button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">
-            Voir la  gestion des produits
-          </button>
+          <div className="mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">
+            <Link href="/GestionProduit">
+            <button>Voir la gestion des produits </button>
+        </Link>
+          </div>
         </div>
         <div className="bg-white p-4 rounded shadow">
           <h2 className="text-lg font-bold mb-4">Gestion des utilisateurs</h2>
