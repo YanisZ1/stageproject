@@ -22,31 +22,35 @@ const HomePage = () => {
 
 
       <div className="container mx-auto px-4">
-  <div className="hero my-8">
-    <h2 className="text-3xl font-bold">Améliorez votre expérience avec nos supports de qualité</h2>
-  </div>
+        <div className="hero my-8">
+          <h2 className="text-3xl font-bold">Améliorez votre expérience avec nos supports de qualité</h2>
+        </div>
 
-  <div className="cta my-8">
-    <h2 className="text-2xl font-bold">Découvrez notre sélection dès maintenant</h2>
-    <a href="#products" className="bg-blue-500 text-white py-2 px-4 rounded inline-block mt-4">Voir les produits</a>
-  </div>
+        <div className="cta my-8">
+          <h2 className="text-2xl font-bold">Découvrez notre sélection dès maintenant</h2>
+          <div className="mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">
+            <Link href="/ProductList">
+              <button>Voir les produits </button>
+            </Link>
+          </div>
+        </div>
 
-  <section id="products" className="features my-8">
-    <div className="feature mb-8">
-      <h3 className="text-xl font-bold">Supports pour ordinateur portable</h3>
-      <p>Nos supports pour ordinateur portable offrent un angle de vue ergonomique pour une meilleure posture et réduisent les risques de tensions musculaires.</p>
+        <section id="products" className="features my-8">
+          <div className="feature mb-8">
+            <h3 className="text-xl font-bold">Supports pour ordinateur portable</h3>
+            <p>Nos supports pour ordinateur portable offrent un angle de vue ergonomique pour une meilleure posture et réduisent les risques de tensions musculaires.</p>
+          </div>
+          <div className="feature mb-8">
+            <h3 className="text-xl font-bold">Supports pour tablette</h3>
+            <p>Donnez à votre tablette une position confortable avec nos supports spécialement conçus pour offrir un soutien stable et ajustable.</p>
+          </div>
+        </section>
+      </div>
     </div>
-    <div className="feature mb-8">
-      <h3 className="text-xl font-bold">Supports pour tablette</h3>
-      <p>Donnez à votre tablette une position confortable avec nos supports spécialement conçus pour offrir un soutien stable et ajustable.</p>
-    </div>
-  </section>
-</div>
-    </div>
-)
+  );
 }
 
-
 export default HomePage;
+
 
 
