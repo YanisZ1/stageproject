@@ -12,6 +12,7 @@ const MyComponent = () => {
           type="text"
           name="firstName"
           id="firstName"
+          placeholder="Prénom"
           className="w-full border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
           required
         />
@@ -24,6 +25,7 @@ const MyComponent = () => {
           type="text"
           name="lastName"
           id="lastName"
+          placeholder="Nom de famille"
           className="w-full border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
           required
         />
@@ -36,6 +38,7 @@ const MyComponent = () => {
           type="email"
           name="email"
           id="email"
+          placeholder="Adresse e-mail"
           className="w-full border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
           required
         />
@@ -48,6 +51,7 @@ const MyComponent = () => {
           type="password"
           name="password"
           id="password"
+          placeholder="Mot de passe"
           className="w-full border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
           required
         />
@@ -59,6 +63,7 @@ const MyComponent = () => {
         Inscrire
       </button>
     </div>
+
   );
 };
 

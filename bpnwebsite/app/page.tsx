@@ -3,44 +3,67 @@ import Link from 'next/link';
 
 const HomePage = () => {
   return (
-    <div>
-      <header>
-        <h1>Page principale</h1>
-      </header>
+       <div className="bg-gray-200 pt-5  text-center">
 
-      <nav>
+      <nav className="flex justify-end pb-4 ">
         <Link href="/Login">
-          <button>Login</button>
+          <button
+            type="button"
+            className="bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-3 mb-2 dark:bg-blue-700 dark:hover:bg-blue-800 focus:outline-none dark:focus:ring-blue-800 ml-2"
+          >
+            <span className="inline-block text-white">Login</span>
+          </button>
         </Link>
         <Link href="/Inscription">
-          <button>Inscription</button>
+          <button
+            type="button"
+            className="bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-3 mb-2 dark:bg-blue-700 dark:hover:bg-blue-800 focus:outline-none dark:focus:ring-blue-800 ml-2"
+          >
+            <span className="inline-block text-white">Inscription </span>
+          </button>
         </Link>
         <Link href="/PageAdmin">
-          <button>Page Admin</button>
+          <button
+            type="button"
+            className=" w-[150px] bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-3 mb-2 dark:bg-blue-700 dark:hover:bg-blue-800 focus:outline-none dark:focus:ring-blue-800 ml-2"
+          >
+            <span className="inline-block text-white">Page Admin </span>
+          </button>
+        </Link>
+
+        <Link href="/Panier">
+          <button
+            type="button"
+            className=" w-[150px] bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-3 mb-2 dark:bg-blue-700 dark:hover:bg-blue-800 focus:outline-none dark:focus:ring-blue-800 ml-2"
+          >
+            <span className="inline-block text-white">Panier  </span>
+          </button>
         </Link>
       </nav>
 
 
-      <div className="container mx-auto px-4">
+      <div className="bg-gray-200 p-20 text-center">
         <div className="hero my-8">
+          <h1 className="text-4xl font-bold mb-10" >Support Ordinateur et de Tablette </h1> 
           <h2 className="text-3xl font-bold">Améliorez votre expérience avec nos supports de qualité</h2>
         </div>
 
-        <div className="cta my-8">
+        <div className="hero bg-cover bg-center h-500 flex items-center justify-center text-gray-800 text-center">
           <h2 className="text-2xl font-bold">Découvrez notre sélection dès maintenant</h2>
-          <div className="mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">
+  
+        </div>
+              <div className="m-auto mt-4 bg-blue-500 w-[200px] hover:bg-blue-600 text-white px-4 py-2 rounded mt-10">
             <Link href="/ProductList">
               <button>Voir les produits </button>
             </Link>
           </div>
-        </div>
 
-        <section id="products" className="features my-8">
-          <div className="feature mb-8">
+        <section id="products" className=" features flex flex-wrap justify-center space-x-4 mt-20 ">
+          <div className="bg-gray-300 text-gray p-20 text-center w-[500px]">
             <h3 className="text-xl font-bold">Supports pour ordinateur portable</h3>
             <p>Nos supports pour ordinateur portable offrent un angle de vue ergonomique pour une meilleure posture et réduisent les risques de tensions musculaires.</p>
           </div>
-          <div className="feature mb-8">
+          <div className="bg-gray-300 text-gray p-20 text-center w-[500px]">
             <h3 className="text-xl font-bold">Supports pour tablette</h3>
             <p>Donnez à votre tablette une position confortable avec nos supports spécialement conçus pour offrir un soutien stable et ajustable.</p>
           </div>
