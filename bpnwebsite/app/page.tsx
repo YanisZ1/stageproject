@@ -5,42 +5,6 @@ const HomePage = () => {
   return (
        <div className="bg-gray-200 pt-5  text-center">
 
-      <nav className="flex justify-end pb-4 ">
-        <Link href="/Login">
-          <button
-            type="button"
-            className="bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-3 mb-2 dark:bg-blue-700 dark:hover:bg-blue-800 focus:outline-none dark:focus:ring-blue-800 ml-2"
-          >
-            <span className="inline-block text-white">Login</span>
-          </button>
-        </Link>
-        <Link href="/Inscription">
-          <button
-            type="button"
-            className="bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-3 mb-2 dark:bg-blue-700 dark:hover:bg-blue-800 focus:outline-none dark:focus:ring-blue-800 ml-2"
-          >
-            <span className="inline-block text-white">Inscription </span>
-          </button>
-        </Link>
-        <Link href="/PageAdmin">
-          <button
-            type="button"
-            className=" w-[150px] bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-3 mb-2 dark:bg-blue-700 dark:hover:bg-blue-800 focus:outline-none dark:focus:ring-blue-800 ml-2"
-          >
-            <span className="inline-block text-white">Page Admin </span>
-          </button>
-        </Link>
-
-        <Link href="/Panier">
-          <button
-            type="button"
-            className=" w-[150px] bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-3 mb-2 dark:bg-blue-700 dark:hover:bg-blue-800 focus:outline-none dark:focus:ring-blue-800 ml-2"
-          >
-            <span className="inline-block text-white">Panier  </span>
-          </button>
-        </Link>
-      </nav>
-
 
       <div className="bg-gray-200 p-20 text-center">
         <div className="hero my-8">
