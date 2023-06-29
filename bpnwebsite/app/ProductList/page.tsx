@@ -34,7 +34,7 @@ const ProductList = () => {
             <p className="text-gray-700">Prix : {product.price} €</p>
       <div className="m-auto mt-4 bg-blue-500 w-[100px] hover:bg-blue-600 text-white px-4 py-2 rounded">
             <Link href="/Panier">
-              <button>Voir les produits </button>
+              <button>Ajouter au Panier </button>
             </Link>
       </div>
           </div>
