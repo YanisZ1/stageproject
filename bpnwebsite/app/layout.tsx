@@ -18,18 +18,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Ajouter ici votre balise d'en-tête */}
       </head>
       <body className={inter.className}>
         
         <header className='bg-gray-200'>
           <div>
-           <Image
+            <Link href="/"> 
+              <Image
               src='/Logo.png'
               height={0}
               width={200}
               alt={`Image de logo`}
             />
+             </Link>
+
 
 
 <nav className="flex justify-end pb-4 ">
