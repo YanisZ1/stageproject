@@ -19,6 +19,7 @@ const products = [
 
 const ProductList = () => {
   return (
+    <div className=" bg-black h-[1000px] pt-10 bg-cover bg-center bg-[url('/microsoft-hololens-technews-france.png')]">
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-4">Liste des produits</h1>
       <div className="grid grid-cols-2 gap-4">
@@ -40,6 +41,7 @@ const ProductList = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };

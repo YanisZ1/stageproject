@@ -1,8 +1,10 @@
 import React from 'react';
+import Image from 'next/image';
 
 const MyComponent = () => {
   return (
-    <div className="max-w-md mx-auto mt-4 p-6 bg-white rounded-lg shadow-md">
+    <div className="bg-black h-[1000px] pt-10 bg-cover bg-center bg-[url('/Ordi2.jpg')]">
+    <div className=" max-w-md mx-auto mt-4 p-6 bg-white rounded-lg shadow-md  ">
       <h2 className="text-2xl font-bold mb-4">Formulaire Inscription</h2>
       <div>
         <label htmlFor="firstName" className="block font-bold mb-1">
@@ -62,6 +64,7 @@ const MyComponent = () => {
       >
         Inscrire
       </button>
+    </div>
     </div>
 
   );

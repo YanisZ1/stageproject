@@ -18,10 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+
       </head>
       <body className={inter.className}>
         
-        <header className='bg-gray-200'>
           <div>
             <Link href="/"> 
               <Image
@@ -72,7 +72,7 @@ export default function RootLayout({
 
 
             </div>
-        </header>
+
         {/* Contenu principal */}
         {children}
         <footer className="my-8">
