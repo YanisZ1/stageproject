@@ -30,11 +30,11 @@ const HomePage = () => {
 
 
         <section id="products" className=" features flex flex-wrap justify-center space-x-4 mt-20 ">
-          <div className="bg-gray-300 text-gray p-20 text-center w-[500px]">
+          <div className="bg-gray-300/80 text-gray p-20 text-center w-[500px]">
             <h3 className="text-xl font-bold">Supports pour ordinateur portable</h3>
             <p>Nos supports pour ordinateur portable offrent un angle de vue ergonomique pour une meilleure posture et réduisent les risques de tensions musculaires.</p>
           </div>
-          <div className="bg-gray-300 text-gray p-20 text-center w-[500px]">
+          <div className="bg-gray-300/80 text-gray p-20 text-center w-[500px]">
             <h3 className="text-xl font-bold">Supports pour tablette</h3>
             <p>Donnez à votre tablette une position confortable avec nos supports spécialement conçus pour offrir un soutien stable et ajustable.</p>
           </div>

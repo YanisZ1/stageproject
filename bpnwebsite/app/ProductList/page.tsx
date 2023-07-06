@@ -24,7 +24,7 @@ const ProductList = () => {
       <h1 className="text-3xl font-bold mb-4">Liste des produits</h1>
       <div className="grid grid-cols-2 gap-4">
         {products.map((product) => (
-          <div className="bg-white rounded-lg shadow-md p-4" key={product.id}>
+          <div className="bg-white/80 rounded-lg shadow-md p-4" key={product.id}>
             <Image
               src={product.image}
               height={0}
